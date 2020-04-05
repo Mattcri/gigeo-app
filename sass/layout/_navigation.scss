@@ -1,1 +1,32 @@
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+@import '../base/typography';
 
+nav {
+   .navbar-brand {
+      color: $color-black;
+      font-family: $brandFont;
+      font-size: 1.8rem;
+      span {
+         font-size: small;
+         font-weight: 400;
+         position: absolute;
+      }
+   }
+
+   .navbar-nav {
+      flex-direction: row !important;
+
+      & .nav-link {
+         margin-left: 2rem;
+         color: $color-black;
+      } 
+   }
+
+   .nav-link--viewNone {
+      @include v-small {
+         display: none;
+      }
+   }
+
+}
