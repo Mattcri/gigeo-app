@@ -21,4 +21,54 @@ nav .navbar-nav .nav-link {
   }
 }
 
+.hero__img {
+  height: 35vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profile .profile__img {
+  flex: 1;
+}
+.profile .profile__img img {
+  width: 120px;
+}
+@media only screen and (max-width: 576px) {
+  .profile .profile__img img {
+    width: 90px;
+  }
+}
+.profile .profile__user {
+  flex: 5;
+}
+.profile .profile__user h3 {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 576px) {
+  .profile .profile__user {
+    margin-left: 20px;
+  }
+}
+.profile .profile__buttons .profile__buttons--margin {
+  margin-left: 10px;
+}
+.profile .profile__buttons .btn:hover {
+  background: rgba(0, 0, 0, 0.075);
+}
+.profile .profile__buttons .btn-info:hover {
+  color: #17a2b8;
+}
+.profile .profile__buttons .btn-danger:hover {
+  color: #dc3545;
+}
+@media only screen and (max-width: 576px) {
+  .profile .profile__buttons {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
