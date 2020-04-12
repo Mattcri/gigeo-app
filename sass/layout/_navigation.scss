@@ -2,6 +2,10 @@
 @import '../abstracts/variables';
 @import '../base/typography';
 
+body {
+   font-family: $font;
+}
+
 nav {
    .navbar-brand {
       color: $color-black;
@@ -15,9 +19,9 @@ nav {
    }
 
    .navbar-nav {
-      flex-direction: row !important;
+      flex-direction: row;
 
-      & .nav-link {
+      .nav-link {
          margin-left: 2rem;
          color: $color-black;
       } 

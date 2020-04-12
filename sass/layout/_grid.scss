@@ -1,3 +1,22 @@
 @import '../abstracts/mixins';
 @import '../abstracts/variables';
+@import '../base/typography';
+
+.main {
+   &__tittle {
+      @include margin-tittle;
+      h2 {
+         font-size: 1.5rem;
+      }
+   }
+   &__videos {
+      img {
+         @include size-img
+      }
+      .col-3 {
+         @include propieties-videos
+      }
+   }
+
+}
 
