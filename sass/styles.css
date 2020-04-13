@@ -1,3 +1,15 @@
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -25,10 +37,28 @@ nav .navbar-nav .nav-link {
   }
 }
 
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+
 .hero__img {
   height: 35vh;
   width: 100%;
   object-fit: cover;
+}
+
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
 }
 
 .profile {
@@ -86,6 +116,18 @@ nav .navbar-nav .nav-link {
   }
 }
 
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+
 .main__tittle {
   margin-top: 35px;
   margin-bottom: 35px;
@@ -93,17 +135,84 @@ nav .navbar-nav .nav-link {
 .main__tittle h2 {
   font-size: 1.5rem;
 }
+@media only screen and (max-width: 576px) {
+  .main__tittle h2 {
+    text-align: center;
+  }
+}
 .main__videos img {
   width: 100%;
   object-fit: cover;
+  height: 155px;
 }
-.main__videos .col-3 h3 {
+.main__videos .main--content h3 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 15px;
 }
-.main__videos .col-3 p {
+.main__videos .main--content p {
   color: #888;
+}
+
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+
+.footer__logo a {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+nav .navbar-brand {
+  color: #000;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.8rem;
+}
+nav .navbar-brand span {
+  font-size: small;
+  font-weight: 400;
+  position: absolute;
+}
+nav .navbar-nav {
+  flex-direction: row;
+}
+nav .navbar-nav .nav-link {
+  margin-left: 2rem;
+  color: #000;
+}
+@media only screen and (max-width: 576px) {
+  nav .nav-link--viewNone {
+    display: none;
+  }
+}
+
+.footer {
+  text-align: center;
+  background: #F6F8FA;
+  margin: 20px 0 0 0;
+  padding: 20px;
+}
+.footer__logo a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
