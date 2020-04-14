@@ -12,4 +12,7 @@
       @extend %logo;
       text-decoration: none;
    }
+   &__logo span {
+      @include span-art;
+   }
 }

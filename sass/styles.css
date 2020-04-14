@@ -30,6 +30,7 @@ nav .navbar-nav {
 nav .navbar-nav .nav-link {
   margin-left: 2rem;
   color: #000;
+  font-size: 20px;
 }
 @media only screen and (max-width: 576px) {
   nav .nav-link--viewNone {
@@ -198,6 +199,7 @@ nav .navbar-nav {
 nav .navbar-nav .nav-link {
   margin-left: 2rem;
   color: #000;
+  font-size: 20px;
 }
 @media only screen and (max-width: 576px) {
   nav .nav-link--viewNone {
@@ -213,6 +215,11 @@ nav .navbar-nav .nav-link {
 }
 .footer__logo a {
   text-decoration: none;
+}
+.footer__logo span {
+  font-size: small;
+  font-weight: 400;
+  position: absolute;
 }
 
 /*# sourceMappingURL=styles.css.map */
